@@ -36,7 +36,7 @@ def get_geojson(res=None):
 
     geo_list = []
     for pt in res['ptinfo']['pt']:
-        my_point = geojson.Point((float(pt['latitude'].replace(',', '.')), float(pt['longitude'].replace(',', '.'))))
+        my_point = geojson.Point((float(pt['longitude'].replace(',', '.')), float(pt['latitude'].replace(',', '.'))))
         my_properties = {"id": pt['PT_ID'],
                          "name": pt['PT_Name'],
                          "region": pt['Region'],
