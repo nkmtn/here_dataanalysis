@@ -1,4 +1,4 @@
 # HERE Data Analysis
 
-Парсинг данных со страних стронних сайтов и преобразование полученных данных к geojson, для дальнейшего использования в сервисах here.
+Parsing data from third-party sites and converting the received data to geojson, for further use in HERE services.
 
